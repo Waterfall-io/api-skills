@@ -9,7 +9,7 @@ This is a multi-skill repo. Each skill lives in its own subfolder and installs i
 | Skill | Purpose |
 | --- | --- |
 | [`waterfall-direct-api`](skills/waterfall-direct-api/SKILL.md) | Call the Waterfall API directly over raw HTTP — auth, request/response shapes, pagination, errors. |
-| `waterfall-integration` | *(planned)* Generate a client-owned Waterfall API integration in your stack. |
+| [`waterfall-integration`](skills/waterfall-integration/SKILL.md) | Generate a client-owned Waterfall API integration (Python or JavaScript/TypeScript) in your own stack. |
 
 ## Install
 
@@ -17,6 +17,7 @@ Using [`npx skills`](https://github.com/vercel-labs/skills):
 
 ```bash
 npx skills add waterfall/api-skills --skill waterfall-direct-api
+npx skills add waterfall/api-skills --skill waterfall-integration
 ```
 
 Multi-skill repos require the explicit `--skill` flag — the unqualified
