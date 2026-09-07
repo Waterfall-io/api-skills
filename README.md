@@ -16,13 +16,13 @@ This is a multi-skill repo. Each skill lives in its own subfolder and installs i
 Using [`npx skills`](https://github.com/vercel-labs/skills):
 
 ```bash
-npx skills add waterfall/api-skills --skill waterfall-direct-api
-npx skills add waterfall/api-skills --skill waterfall-integration
+npx skills add Waterfall-io/api-skills --skill waterfall-direct-api
+npx skills add Waterfall-io/api-skills --skill waterfall-integration
 ```
 
 Multi-skill repos require the explicit `--skill` flag — the unqualified
-`npx skills add waterfall/api-skills` isn't guaranteed to install a specific skill by the CLI's own
-docs. You can also install directly from a `.../tree/main/skills/<name>` URL.
+`npx skills add Waterfall-io/api-skills` isn't guaranteed to install a specific skill by the CLI's own
+docs. You can also install directly from a `.../tree/master/skills/<name>` URL.
 
 ## Source of truth
 
